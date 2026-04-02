@@ -14,3 +14,4 @@ This system identifies and prevents redundant data uploads using **SHA-256 Hashi
 
 ## 📸 Proof of Concept
 <img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/e875f3e6-093c-4842-8d7d-e49368c57f47" />
+<img width="1059" height="587" alt="image" src="https://github.com/user-attachments/assets/b0c880f4-5a13-45aa-8d2b-346203bf837c" />
