@@ -12,6 +12,17 @@ This system identifies and prevents redundant data uploads using **SHA-256 Hashi
 - `RedundancyManager.java`: The main Java application (JDBC).
 - `database_setup.sql`: SQL script to create the table and sequence.
 
-## 📸 Proof of Concept
-<img width="1919" height="960" alt="image" src="https://github.com/user-attachments/assets/e875f3e6-093c-4842-8d7d-e49368c57f47" />
-<img width="1059" height="587" alt="image" src="https://github.com/user-attachments/assets/b0c880f4-5a13-45aa-8d2b-346203bf837c" />
+## 📸 Proof of Concept.
+
+### 1. First Upload (Unique Data)
+*Screenshot of Eclipse showing the **SUCCESS** message.*
+<img width="997" height="799" alt="image" src="https://github.com/user-attachments/assets/d31d1ced-8c53-484d-adb5-a9ce3b2793ef" />
+
+### 2. Redundancy Detected (Duplicate Data)
+*Screenshot of Eclipse showing the **ALERT** message.
+<img width="1118" height="808" alt="image" src="https://github.com/user-attachments/assets/ea433ffd-624d-4a34-8133-d1b461a718a3" />
+
+### 3. Database Verification (Oracle SQL Plus)
+*The result of `SELECT * FROM system.UserCloudVault;` showing the saved data.*
+<img width="989" height="856" alt="image" src="https://github.com/user-attachments/assets/698ed7e5-1f8c-4d7f-8e6a-6c35566edbef" />
+
